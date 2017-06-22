@@ -1,0 +1,74 @@
+# # - pound character or ochtotrophe.
+* asterisk
+<=   less-than-or-equal
+>=   greater than or equal
+_  underscore character
+'\n'  newline charecter
+# escape sequences
+'\\'  escapes backslash
+"\'"  escapes single quote
+"\""  escapes "
+"\t"  horizontal tab
+
+raw_input() is the built-in function that gets the general input from users
+ #The input() function will try to convert things you enter as if they were Python code,
+
+argv - argument variable
+
+#methods/functions you can give to file
+close - closes the file
+read - reads the contents of the file. we can asign the result to a variables
+readline - reads one line of the file
+truncate - empties file
+write("stuff") - writes "stuff" to a file
+
+function "exists" - returns true if a file exists
+len() - returns a length of a string
+
+def - a word used to define or create a new function
+
+
+What is +=?
+You know how in English I can rewrite "it is" as "it's"? Or I can rewrite
+ "you are" as "you're"? In English this is called a contraction,
+ and this is kind of like a contraction for the two operations = and +. That means x = x + y is the same as x += y.
+
+type() -  this function tells the type of a given argument in a parentheses()
+
+== - equal
+!= - not equal
+
+The range function automatically produces lists made of a sequence of numbers. It has the
+form range(start, stop, step),
+
+Notice that the function sorted returns a new list and does not affect the original one,
+whereas the list function sort modifies the original list itself.
+
+The replace function will make a new string in which all specified substrings have been
+replaced:
+>>> 'We code in Python. We like it.".replace("We", "You")
+'You code in Python. You like it.'
+
+
+abs(x)	absolute value or magnitude of x
+int(x)	x converted to integer	(2)
+long(x)	x converted to long integer	(2)
+float(x)	x converted to floating point
+complex(re,im)	a complex number with real part re, imaginary part im. im defaults to zero.
+c.conjugate()	conjugate of the complex number c
+divmod(x, y)	the pair (x / y, x % y)	(3)
+pow(x, y)	x to the power y
+x ** y	x to the power y
+
+operations with sequence types:
+x in s      	   1 if an item of s is equal to x, else 0
+x not in s	     0 if an item of s is equal to x, else 1
+s + t           	the concatenation of s and t
+s * n , n * s	     n copies of s concatenated	(1)
+s[i]	           i'th item of s, origin 0	(2)
+s[i:j]	         slice of s from i to j	(2), (3)
+len(s)	   length of s
+min(s)	   smallest item of s
+max(s)	   largest item of s
+
+exit(0) - abort
